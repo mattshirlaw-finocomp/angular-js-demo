@@ -24,6 +24,8 @@ npm run start
 * Angular one time binding
 * controllerAs syntax
 * Binding a function to the view model
+* Routing using Angular UI Router
+* Manual bootstrapping of the application
 
 ## Resources
 

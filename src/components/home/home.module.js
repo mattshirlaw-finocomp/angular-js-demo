@@ -1,4 +1,5 @@
 const angular = require("angular");
+const homeConfig = require("./home.config");
 const homePage = require("./home.component");
 
 /**
@@ -7,6 +8,7 @@ const homePage = require("./home.component");
 const homeModule = angular.module('app.home', [])
 
 homeModule
+    .config(homeConfig)
     .component('homePage', homePage);
 
 module.exports = homeModule;
